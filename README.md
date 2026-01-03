@@ -96,7 +96,13 @@ Tras la ejecucion, se genera un reporte detallado en formato HTML. Puedes consul
 Esta API permite gestionar un inventario de perfumes, proporcionando operaciones CRUD (Crear, Leer, Actualizar, Eliminar) y autenticacion.
 
 ## Configuracion Base
-
+*   **Usuario por defecto**:
+```json
+{
+  "username": "admin",
+  "password": "password"
+}
+```
 *   **URL Base**: `http://localhost:8080/api`
 *   **Formato de Datos**: JSON
 
@@ -124,8 +130,8 @@ Autentica a un usuario y devuelve un token JWT.
 
 ```json
 {
-  "username": "usuario",
-  "password": "password123"
+  "username": "admin",
+  "password": "password"
 }
 ```
 
