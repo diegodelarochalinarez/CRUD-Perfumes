@@ -1,4 +1,4 @@
-# CRUD Perfumes para prueba Softtek
+# CRUD Perfumes
 Este proyecto es una API RESTful desarrollada con Spring Boot. Incluye caracteristicas como seguridad con JWT, control de concurrencia y cache distribuida.
 ## Estructura del Proyecto
 El código fuente sigue una arquitectura en capas clásica de Spring Boot, organizada por paquetes según su responsabilidad:
